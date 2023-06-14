@@ -1,1 +1,1 @@
-# tfc-workflows-github-additional
+# tfc-workflows-github-addon
