@@ -6,7 +6,7 @@ import logging
 
 def get_workspace_outputs(workspace_id):
     outputs_endpoint = f"https://app.terraform.io/api/v2/plans/{plan_id}/json-output-redacted"
-    #https://{{tf_cloud}}//api/v2/plans/plan-5K8JFcmiN9PaDiww/json-output-redacted
+
     try:
         response = requests.get(outputs_endpoint, headers=headers)
         response.raise_for_status() # raise an exception if response status code is not 200 OK

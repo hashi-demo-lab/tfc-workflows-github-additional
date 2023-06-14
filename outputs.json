@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "id": "wsout-zoJLFh3rBdJZkdoe",
+            "type": "state-version-outputs",
+            "attributes": {
+                "name": "pet_name",
+                "sensitive": false,
+                "type": "string",
+                "value": "frank-rhino",
+                "detailed-type": "string"
+            },
+            "links": {
+                "self": "/api/v2/state-version-outputs/wsout-zoJLFh3rBdJZkdoe"
+            }
+        },
+        {
+            "id": "wsout-So1H2Rhj3WpVAiMs",
+            "type": "state-version-outputs",
+            "attributes": {
+                "name": "pet_name_length",
+                "sensitive": false,
+                "type": "number",
+                "value": 2,
+                "detailed-type": "number"
+            },
+            "links": {
+                "self": "/api/v2/state-version-outputs/wsout-So1H2Rhj3WpVAiMs"
+            }
+        }
+    ]
+}
