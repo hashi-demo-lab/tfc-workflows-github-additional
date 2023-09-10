@@ -24,7 +24,7 @@ def get_workspaces_by_tag(api_token, organization, querystring):
 # Set your Terraform Cloud API token
 api_token = os.getenv('TF_API_TOKEN')
 organization = os.getenv('TF_CLOUD_ORGANIZATION')
-querystring = {"search[tags]":"f5","sort":"name"}
+querystring = {"fields[workspace][]=assessments_enabled&search[tags]":"f5","sort":"name"}
 
 headers = {
     "Authorization": f"Bearer {api_token}",
