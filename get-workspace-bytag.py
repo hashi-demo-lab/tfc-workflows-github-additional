@@ -12,7 +12,7 @@ def get_workspaces_by_tag(api_token, organization, querystring):
     }
 
     try:
-        response = requests.get(workspaces_endpoint, headers=headers params=querystring)
+        response = requests.get(workspaces_endpoint, headers=headers, params=querystring)
         response.raise_for_status()
         outputs = response.json()
         return outputs
