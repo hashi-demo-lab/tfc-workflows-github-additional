@@ -4,7 +4,7 @@ import requests
 import json
 import logging
 
-def get_workspaces_by_tag(api_token, organization, querystring)::
+def get_workspaces_by_tag(api_token, organization, querystring):
     workspaces_endpoint = f"https://app.terraform.io/api/v2/organizations/{organization}/workspaces"
     headers = {
         "Authorization": f"Bearer {api_token}",
